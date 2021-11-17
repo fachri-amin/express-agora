@@ -24,7 +24,7 @@ module.exports = {
         console.log("Token With Integer Number Uid: " + tokenA);
 
         res.header("Access-Control-Allow-Origin", "*")
-        res.json({token: tokenA});
+        res.json({token: tokenA, uid: uid});
         
         // // Build token with user account
         // const tokenB = RtcTokenBuilder.buildTokenWithAccount(appID, appCertificate, channelName, account, role, privilegeExpiredTs);
