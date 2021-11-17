@@ -2,9 +2,9 @@ const {RtcTokenBuilder, RtmTokenBuilder, RtcRole, RtmRole} = require('agora-acce
 
 module.exports = {
     generateToken: (req, res) => {
-        const appID = 'c36095ee3c18411e8edcdead9d45ac77';
+        const appID = 'c35af1410df9462a88e14d7334508b1b';
         // const appID = 'c36095ee3c18411e8edcdead9d45ac77failtest';
-        const appCertificate = '52b2a174ee2f48b6bd13b2b2f919e7dd';
+        const appCertificate = '87be30726f9f4a7e968175cab0866777';
         const channelName = req.params.channel;
         const uid = req.params.uid;
         // const account = "2882341273";
