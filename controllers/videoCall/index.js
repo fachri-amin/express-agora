@@ -7,7 +7,7 @@ module.exports = {
         const appCertificate = '33dfaff7f548438dbdb874fae1d443e0';
         const channelName = req.params.channel;
         // const uid = req.params.uid;
-        const uid = Math.floor(Math.random()*100000);
+        const uid = 2882341273 //Math.floor(Math.random()*100000);
         // const account = "2882341273";
         const role = RtcRole.PUBLISHER;
 
