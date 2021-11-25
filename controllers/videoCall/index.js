@@ -11,7 +11,7 @@ module.exports = {
         // const account = "2882341273";
         const role = RtcRole.PUBLISHER;
 
-        const expirationTimeInSeconds = 3600
+        const expirationTimeInSeconds = 3600*24*30
 
         const currentTimestamp = Math.floor(Date.now() / 1000)
 
